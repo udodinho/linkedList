@@ -13,7 +13,7 @@ type linkedList struct {
 func (l *linkedList) prepend(val int)  {
 	newNode := &node{data: val}
 	if l.head != nil {
-		l.head.next = l.head
+		newNode.next = l.head
 		l.head = newNode
 		l.length++
 	}else {
