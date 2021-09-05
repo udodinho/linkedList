@@ -20,5 +20,5 @@ func (l *linkedList) prepend(val int)  {
 		l.head = newNode
 		l.length++
 	}
-
+	return
 }
