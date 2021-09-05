@@ -10,6 +10,8 @@ type linkedList struct {
 	length int
 }
 
-func (l *linkedList) prepend()  {
+func (l *linkedList) prepend(val int)  {
+	newNode := &node{data: val}
+
 
 }
