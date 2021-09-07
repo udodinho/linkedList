@@ -54,6 +54,8 @@ func (l *linkedList) deleteWithValue(val int)  {
 		}
 		previousDel = previousDel.next
 	}
+	previousDel.next = previousDel.next.next
+	l.length--
 
 }
 
