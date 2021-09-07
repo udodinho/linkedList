@@ -27,6 +27,9 @@ func (l *linkedList) print()  {
 	if l.head == nil {
 		panic("Empty List")
 	}
+
+	current := l.head
+
 }
 
 
