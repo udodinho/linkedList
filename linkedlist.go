@@ -66,6 +66,7 @@ func main() {
 	v.prepend(33)
 	v.prepend(80)
 	v.prepend(90)
-
+	v.prepend(40)
+	v.deleteWithValue(33)
 	v.print()
 }
