@@ -24,7 +24,9 @@ func (l *linkedList) prepend(val int)  {
 }
 
 func (l *linkedList) print()  {
-
+	if l.head == nil {
+		panic("Empty List")
+	}
 }
 
 
