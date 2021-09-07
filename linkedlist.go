@@ -33,6 +33,7 @@ func (l *linkedList) print()  {
 	current := l.head
 	for current != nil {
 	fmt.Println(current.data)
+	current = current.next
 	}
 
 }
