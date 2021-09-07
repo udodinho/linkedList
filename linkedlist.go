@@ -29,6 +29,9 @@ func (l *linkedList) print()  {
 	}
 
 	current := l.head
+	for current != nil {
+
+	}
 
 }
 
