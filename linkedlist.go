@@ -38,6 +38,10 @@ func (l *linkedList) print()  {
 
 }
 
+func (l *linkedList) deleteWithValue(val int)  {
+
+}
+
 
 
 func main() {
