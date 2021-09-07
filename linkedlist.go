@@ -43,8 +43,8 @@ func (l *linkedList) print()  {
 func main() {
 	v := &linkedList{}
 	v.prepend(33)
-	v.prepend(30)
+	v.prepend(80)
 	v.prepend(90)
 
-
+	v.print()
 }
