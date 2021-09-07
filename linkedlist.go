@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type node struct {
 	next *node
 	data int
@@ -30,7 +32,7 @@ func (l *linkedList) print()  {
 
 	current := l.head
 	for current != nil {
-
+	fmt.Println(current.data)
 	}
 
 }
