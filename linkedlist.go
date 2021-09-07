@@ -42,7 +42,9 @@ func (l *linkedList) deleteWithValue(val int)  {
 	if l.length == 0 {
 		return
 	}
-
+	if l.head.data == val {
+		l.head = l.head.next
+	}
 }
 
 
