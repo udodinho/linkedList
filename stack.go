@@ -19,4 +19,5 @@ func (s *stack) isEmpty() bool {
 	if len(s.items) == 0 {
 	return true
 	}
+	return false
 }
