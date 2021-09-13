@@ -15,3 +15,6 @@ func (s *stack) pop() int {
 	return  remove
 }
 
+func (s *stack) isEmpty() bool {
+
+}
